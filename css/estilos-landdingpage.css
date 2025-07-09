@@ -1,5 +1,5 @@
 body {
-    background-image: url("/media/images/fondopage.png");
+    background-image: url("../media/images/fondopage.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;

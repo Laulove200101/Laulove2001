@@ -14,6 +14,15 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MFYZ7CM31G"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-MFYZ7CM31G');
+</script>
 
 <body>
 	<div class="contenedor">
@@ -35,12 +44,15 @@
 			</div>
 			<div>
 				<label for="nickyoutube" style="font-size: 1.5em;">Nick de youtube:</label><br>
-				<input type="text" id="nickyoutube" name="nombre" autocomplete="off" placeholder="Nombre de youtube"><br>
+				<input type="text" id="nickyoutube" name="nombre" autocomplete="off"
+					placeholder="Nombre de youtube"><br>
 			</div>
 		</div>
 		<div class="text-area">
-			<label for="mensaje_contacto" style="font-size: 1.5em;">Mensaje:<span class="text-danger">*</span></label><br>
-			<textarea id="mensaje_contacto" name="mensaje" rows="5" cols="80" placeholder="Escriba su petición" required></textarea><br>
+			<label for="mensaje_contacto" style="font-size: 1.5em;">Mensaje:<span
+					class="text-danger">*</span></label><br>
+			<textarea id="mensaje_contacto" name="mensaje" rows="5" cols="80" placeholder="Escriba su petición"
+				required></textarea><br>
 		</div>
 		<input type="submit" value="Enviar" id="boton">
 	</form>
