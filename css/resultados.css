@@ -1,0 +1,104 @@
+body {
+    background-color: RGB(239, 190, 234);
+    overflow-y: hidden;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    position: relative;
+    padding-left: 21.8em;
+    right: 38%;
+    margin-top: 1em;
+
+
+}
+
+.caja {
+
+    position: relative;
+    width: 50em;
+    height: 35em;
+    margin-left: 33.5em;
+    align-items: center;
+}
+
+.nombre,
+.nombre1 {
+    height: 15em;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.25em;
+    font-size: 3.5em;
+    position: absolute;
+    text-shadow: 8px 0px 1px #ffffff;
+    background-color: RGB(223, 153, 255);
+    border-radius: 20px;
+    margin-top: -5.15em;
+}
+
+.nombre {
+    margin-left: -5em;
+}
+
+.nombre1 {
+    margin-left: 18em;
+}
+
+#sobre {
+    background-color: white;
+    height: 25em;
+    width: 50em;
+    margin-top: 12em;
+    border: solid black;
+    position: relative;
+}
+
+
+
+#lineaizq {
+    border: solid black 1.95px;
+    width: 29em;
+    margin-top: 7.2em;
+    margin-left: -2em;
+    transform: rotate(30deg);
+    color: black;
+    position: absolute;
+}
+
+#lineader {
+    border: solid black 1.95px;
+    width: 29em;
+    margin-top: 7.2em;
+    margin-left: 23em;
+    transform: rotate(-30deg);
+    color: black;
+    position: absolute;
+}
+
+#corazon {  
+    position: absolute;
+    height: 15em;
+    left: 22.5em;
+    top: 8em;
+}
+
+#carta {
+    visibility: hidden;
+    font-size: 4em;
+    margin: 1.35em auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+#lineas {
+    display: block;
+}

@@ -1,0 +1,8 @@
+#excluidos
+calendario-streams.html
+.vscode
+*.tmp
+.env
+*.log
+server.html
+#Comentario de prueba

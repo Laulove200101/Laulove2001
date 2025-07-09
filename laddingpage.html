@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Laulove2001</title>
+	<link rel="stylesheet" href="css/estilos-landdingpage.css">
+	<link rel="stylesheet" href="fuentes/fuentes-laddingpage.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="Laulove2001">
+	<meta name="author" content="Laulove2001">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="media/images/LogoMio.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="contenedor">
+		<p class="nick">🖤Laulove2001🖤</p>
+		<p class="marco-arriba">⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷</p>
+		<video class="video" controls width="604">
+			<source src="media/video/clip.mp4">
+		</video>
+		<p class="marco-abajo">⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷</p>
+	</div>
+	<h1>COLABORACIONES</h1>
+	<form action="/pages/colaboraciones/resultados.html" method="get">
+		<label for="mail" style="font-size: 1.5em;">Email:<span class="text-danger">*</span></label><br>
+		<input type="text" id="mail" name="email" autocomplete="off" placeholder="ejemplo@gmail.com" required><br>
+		<div class="contenedor-form">
+			<div>
+				<label for="nicktwitch" style="font-size: 1.5em;">Nick de twitch:</label><br>
+				<input type="text" id="nicktwitch" name="nombre" autocomplete="off" placeholder="Nombre de twitch"><br>
+			</div>
+			<div>
+				<label for="nickyoutube" style="font-size: 1.5em;">Nick de youtube:</label><br>
+				<input type="text" id="nickyoutube" name="nombre" autocomplete="off" placeholder="Nombre de youtube"><br>
+			</div>
+		</div>
+		<div class="text-area">
+			<label for="mensaje_contacto" style="font-size: 1.5em;">Mensaje:<span class="text-danger">*</span></label><br>
+			<textarea id="mensaje_contacto" name="mensaje" rows="5" cols="80" placeholder="Escriba su petición" required></textarea><br>
+		</div>
+		<input type="submit" value="Enviar" id="boton">
+	</form>
+	<script src="js/laddingpage.js"></script>
+</body>
+
+</html>

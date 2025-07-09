@@ -1,0 +1,101 @@
+body {
+    background-image: url("/media/images/fondopage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+}
+
+.contenedor {
+    position: absolute;
+    right: 7em;
+    width: 37.5em;
+    height: 30em;
+}
+
+.marco-arriba {
+    margin: 0 auto;
+
+}
+
+.marco-abajo {
+    margin: 0 auto;
+}
+
+.nick {
+    border: solid black;
+    border-radius: 0.5em;
+    text-align: center;
+    height: 1.5em;
+    font-size: 1.9em;
+    align-items: center;
+    background-color: rgb(203, 115, 255);
+
+}
+
+h1 {
+    border: solid black;
+    border-radius: 0.5em;
+    text-align: center;
+    padding: 0.5em 0.9em 0.5em 0.2em;
+    font-size: 4em;
+    text-shadow: 4px 5px rgb(202, 41, 202);
+    text-shadow: right 20px;
+    width: 9em;
+    margin-left: 2em;
+    background-color: rgb(223, 153, 255);
+    color: black;
+}
+
+form {
+    border: solid rgb(177, 22, 94);
+    border-radius: 0.5em;
+    width: 40em;
+    margin: 6em;
+    padding: 2rem 1rem 1rem 3em;
+    height: 25em;
+
+}
+
+#mail{
+    width: 45em;
+}
+#mail,#nicktwitch,#nickyoutube,#mensaje-contacto{
+    margin-bottom: 2em;
+}
+
+#nicktwitch,#nickyoutube{
+    width: 21.65em;
+}
+
+.contenedor-form {
+    display: inline-block;
+}
+
+.contenedor-form div:first-child {
+    float: left;
+}
+
+.contenedor-form div:nth-child(2) {
+    float: right;
+}
+
+input,
+textarea,
+label {
+
+    margin: 0.5rem;
+}
+#boton{
+    height: 3em;
+    width: 6em;
+    background-color:rgb(174, 87, 214) ;
+    color:white;
+    font-size: 1em;
+
+}
+
+@media (max-width:768px) {}
