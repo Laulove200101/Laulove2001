@@ -171,8 +171,7 @@ body {
     .arriba a{
         top:0.3em;
     }
-    
-
-
-
+    main{
+        background-color: black;
+    }
 }

@@ -147,6 +147,9 @@ footer address {
     .arriba{
         height: 40px;
     }
+    main{
+        background-color: black;
+    }
     .arriba a{
         top:0.3em;
     }
