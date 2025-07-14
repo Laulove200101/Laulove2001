@@ -1,7 +1,6 @@
-
 body {
     padding: 0;
-    height:1000px;
+    height: 1000px;
     margin: 0 auto;
     overflow-x: hidden;
 }
@@ -11,7 +10,7 @@ main {
     background-color: rgba(255, 255, 255, 0.2);
     background-repeat: no-repeat;
     background-size: cover;
-    height:1000px;
+    height: 1000px;
 }
 
 a {
@@ -25,35 +24,40 @@ header,
 h2 {
     margin: 0 auto;
 }
-.arriba{
-    background: linear-gradient(to right, #cc00cc 0%, #9900cc 100%);    
+
+.arriba {
+    background: linear-gradient(to right, #cc00cc 0%, #9900cc 100%);
     height: 55px;
     width: 100%;
     text-align: center;
 }
+
 header {
     width: 100%;
     height: 560px;
 }
-#banner{
+
+#banner {
     height: 505px;
     width: 100%;
 }
-.arriba a{
-    background-color:rgb(11, 105, 255);
+
+.arriba a {
+    background-color: rgb(11, 105, 255);
     padding: 5px;
     text-decoration: none;
     border-radius: 10px;
     position: relative;
     top: 15px;
-    font-size:1em;
-    color:white;
+    font-size: 1em;
+    color: white;
     display: inline-flex;
     justify-content: space-around;
     flex-wrap: nowrap;
 }
-.arriba a:hover{
-    transform: scale(1.02) ;
+
+.arriba a:hover {
+    transform: scale(1.02);
 }
 
 
@@ -83,47 +87,47 @@ h3 {
     font-size: 30px;
 }
 
-.contenedor{
-    position:relative;
-    width:100%;
-    padding:10px;
+.contenedor {
+    position: relative;
+    width: 100%;
+    padding: 10px;
 }
 
-.arriba-izquierda{
-    position:absolute;
-    left:20em;
-}
-
-.abajo-izquierda{
-    position:absolute;
-    top:20em;
-    left:20em;
-}
-
-.arriba-derecha{
+.arriba-izquierda {
     position: absolute;
-    right:20em;
+    left: 20em;
 }
 
-.abajo-derecha{
+.abajo-izquierda {
     position: absolute;
-    top:20em;
-    right:20em;
+    top: 20em;
+    left: 20em;
 }
 
-.centro{
+.arriba-derecha {
     position: absolute;
-    width:25%;
+    right: 20em;
+}
+
+.abajo-derecha {
+    position: absolute;
+    top: 20em;
+    right: 20em;
+}
+
+.centro {
+    position: absolute;
+    width: 25%;
     left: 22.5em;
-    top:2em;
+    top: 2em;
 }
 
-.conjunto{
+.conjunto {
     position: relative;
     top: 30em;
 }
 
-.follow{
+.follow {
     text-align: center;
 }
 
@@ -140,66 +144,83 @@ footer p {
 footer address {
     padding-bottom: 1em;
 }
-@media (max-width :667px){
-    html{
+
+@media (max-width :667px) {
+    html {
         overflow-x: hidden;
         box-sizing: border-box;
     }
-    body{
+
+    body {
         width: 100%;
         height: 100%;
-       
+
     }
-    header{
+
+    header {
         height: 12.5em;
         width: 100%;
     }
-    main{
-        height: 1350px; background-image: none;
+
+    main {
+        height: 1350px;
+        background-image: none;
         background-color: black;
     }
-    #banner{
+
+    #banner {
         height: 10em;
     }
-    .arriba{
+
+    .arriba {
         height: 40px;
     }
-    .arriba a{
-        top:0.3em;
+
+    .arriba a {
+        top: 0.3em;
     }
-    .arriba-izquierda{
-        left:0.5em;
+
+    .arriba-izquierda {
+        left: 0.5em;
         height: 10em;
     }
-    .abajo-izquierda{
-        left:12.5em;
-        width:10em;
+
+    .abajo-izquierda {
+        left: 12.5em;
+        width: 10em;
         top: 2em;
     }
-    .arriba-derecha{
-        left:12.5em;
+
+    .arriba-derecha {
+        left: 12.5em;
         height: 10em;
-        top:38em;
+        top: 38em;
     }
-    .abajo-derecha{
+
+    .abajo-derecha {
         left: 1.5em;
         width: 10em;
-        top:40em;
+        top: 40em;
     }
-    .centro{
-        left:1.2em;
+
+    .centro {
+        left: 1.5em;
         width: 10em;
         text-align: center;
-        top:5em;
+        top: 5em;
+        font-size:1.8em ;
     }
-    .conjunto{
-        top:45em;
+
+    .conjunto {
+        top: 45em;
     }
+
     .follow a {
         text-decoration: none;
     }
-    .follow a img{
+
+    .follow a img {
         width: 20rem;
     }
-    
+
 }
