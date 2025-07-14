@@ -52,7 +52,6 @@ header {
     display: inline-flex;
     justify-content: space-around;
     flex-wrap: nowrap;
-    gap: 40px;
 }
 
 .arriba a:hover {
@@ -131,4 +130,31 @@ footer p {
 
 footer address {
     padding-bottom: 1em;
+}
+
+@media (max-width:667px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    header{
+        height: 12.5em;
+        width: 100%;
+    }
+    #banner {
+        height: 10em;
+    }
+    .arriba{
+        height: 40px;
+    }
+    .arriba a{
+        top:0.3em;
+    }
+    .imagenes a{
+        text-decoration: none;
+    }
+    .imagenes img a{
+        height: 150px;
+    }
+
 }
