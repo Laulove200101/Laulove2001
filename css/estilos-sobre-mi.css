@@ -148,6 +148,7 @@ footer address {
         height: 40px;
     }
     main{
+        background-image: none;
         background-color: black;
     }
     .arriba a{

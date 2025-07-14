@@ -166,6 +166,7 @@ body {
         height: 10em;
     }
     main{
+        background-image: none;
         background-color: black;
     }
     .arriba{
