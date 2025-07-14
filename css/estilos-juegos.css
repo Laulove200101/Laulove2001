@@ -165,13 +165,14 @@ body {
     #banner {
         height: 10em;
     }
+    main{
+        background-color: black;
+    }
     .arriba{
         height: 40px;
     }
     .arriba a{
         top:0.3em;
     }
-    main{
-        background-color: black;
-    }
+    
 }
