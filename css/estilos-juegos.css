@@ -90,9 +90,13 @@ ul li ,ol li{
 }
 ul li{
     padding-top:0.1em;
+    padding-bottom: 0.2em;
 }
 .primera{
-    padding-top:0.5em;
+    padding-top:1em;
+}
+.ultima{
+    padding-bottom: 0.5em;
 }
 h4{
     font-size:2em;
@@ -112,7 +116,9 @@ h4{
 .juegos .fotos2,
 .juegos .fotos5,
 .juegos .fotos6,
-.juegos .fotos7{
+.juegos .fotos7,
+.juegos .fotos9 
+{
     float:left;
     height:2.65em;
 }
@@ -120,7 +126,8 @@ h4{
 .juegos .fotos1,
 .juegos .fotos3,
 .juegos .fotos4,
-.juegos .fotos8
+.juegos .fotos8,
+.juegos .fotos10
 {
     float:left ;
     height:2.7em;
@@ -128,10 +135,13 @@ h4{
 
 .fotos,.fotos1,.fotos2,
 .fotos3,.fotos4,.fotos5,
-.fotos6,.fotos7,.fotos8{
+.fotos6,.fotos7,.fotos8, 
+.fotos9,.fotos10{
     padding-left: 1.5%;
 }
-
+.fotos10{
+    width: 4.5em;
+}
 
 p{	
     font-size:1.5em;
