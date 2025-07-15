@@ -130,7 +130,8 @@ h4 {
 .juegos .fotos5,
 .juegos .fotos6,
 .juegos .fotos7,
-.juegos .fotos9 {
+.juegos .fotos9,
+.juegos .fotos13 {
     float: left;
     height: 2.65em;
 }
@@ -157,7 +158,8 @@ h4 {
 .fotos8,
 .fotos9,
 .fotos10,
-.fotos11,.fotos12 {
+.fotos11,.fotos12,
+.fotos13 {
     padding-left: 1.5%;
 }
 
