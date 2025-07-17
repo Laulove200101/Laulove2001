@@ -167,6 +167,7 @@ h4 {
     width: 4.5em;
 }
 
+
 p {
     font-size: 1.5em;
     color: white;
@@ -187,6 +188,8 @@ footer p {
 footer address {
     padding-bottom: 1em;
 }
+
+
 
 @media (max-width:667px) {
     body {
