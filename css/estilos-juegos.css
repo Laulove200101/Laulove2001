@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    /*overflow-x: hidden;*/
 }
 
 main {
@@ -68,6 +69,7 @@ header {
     background: linear-gradient(to right, #842FCE 0%, #33BEDA 50%, #C52BB1 100%);
 }
 
+
 h3 {
     font-size: 30px;
 }
@@ -83,12 +85,14 @@ div h3 {
     background-color: #9F0ABE;
     -webkit-box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 19px 10px 4px 13px #F1B0FF;
     box-shadow: 0px 0px 0px 5px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 19px 10px 4px 13px #F1B0FF;
+    width: 90%;
 }
 
-ol,
+
 ul {
     padding-left: 4.8rem;
     margin: 0;
+
 }
 
 ul li,
@@ -101,7 +105,9 @@ ul li {
     padding-top: 0.1em;
     padding-bottom: 0.2em;
 }
-
+ol{
+    list-style-position: inside
+}
 .primera {
     padding-top: 1em;
 }
@@ -114,58 +120,57 @@ h4 {
     font-size: 2em;
     background-color: #fb8fff;
     color: white;
-    padding-left: 6%;
-    width: 94%;
+    width: 85%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin:2em auto;
 }
 
-.descripcion {
-    font-size: 1.5em;
-    color: white;
-    padding-bottom: 0.5em;
+.lista {
+    text-align: center;
+}
+.opinion{
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
 }
 
 
-.juegos .fotos,
-.juegos .fotos2,
-.juegos .fotos5,
-.juegos .fotos6,
-.juegos .fotos7,
-.juegos .fotos9,
-.juegos .fotos13 {
-    float: left;
-    height: 2.65em;
+.contenedorBody {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    place-items: center;
+    justify-content: center;
+    
+}
+.contenedor{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.fotos {
+    height: 20em;
+    float: right;
+    border-color: white;
+    border-radius: 15px;
+
 }
 
-.juegos .fotos1,
-.juegos .fotos3,
-.juegos .fotos4,
-.juegos .fotos8,
-.juegos .fotos10,
-.juegos .fotos11,
-.juegos .fotos12 {
-    float: left;
-    height: 2.7em;
+
+.descripcion{
+    width: 40rem;
+    margin-right: 10rem;
+    justify-content: center;
+    text-align: center;
+
+}
+.abajo {
+    padding-bottom: 2.5em;
 }
 
-.fotos,
-.fotos1,
-.fotos2,
-.fotos3,
-.fotos4,
-.fotos5,
-.fotos6,
-.fotos7,
-.fotos8,
-.fotos9,
-.fotos10,
-.fotos11,.fotos12,
-.fotos13 {
-    padding-left: 1.5%;
-}
 
-.fotos10 {
-    width: 4.5em;
-}
 
 
 p {
@@ -223,30 +228,31 @@ footer address {
         font-size: 1.5em;
     }
 
-    .juegos .fotos,
-.juegos .fotos2,
-.juegos .fotos5,
-.juegos .fotos6,
-.juegos .fotos7,
-.juegos .fotos9,
-.juegos .fotos12,
-.juegos .fotos13{
-    height: 2em;
-    padding-right: 0.5em;
-}
-.juegos .fotos1,
-.juegos .fotos3,
-.juegos .fotos4,
-.juegos .fotos8,
-.juegos .fotos10,
-.juegos .fotos11{
-    height: 2em;
-    padding-right: 0.5em;
-}
-.fotos12 {
-    width: 3.5em;
-}
-.fotos10 {
-    width: 3.5em;
-}
+    .contenedor{
+        flex-direction: column;
+        place-items: center;
+    }
+    .fotos{
+        order: -1;
+        height: auto; 
+        max-width: 300px;
+    }
+    .descripcion{
+        text-align: center;
+        width:18em;
+        margin: 0 auto;
+        margin-top:0.5em;
+        font-size: 1em;
+        margin-bottom: 0.5em;
+    }
+    .opinion{
+        width: 18em;
+        font-size: 1em;
+    }
+    ol li{
+        font-size: 1em;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
 }
