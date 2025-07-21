@@ -250,10 +250,18 @@ footer address {
         width: 18em;
         font-size: 1em;
     }
+    ol{
+        width: fit-content;
+        margin: 0 auto;
+        list-style-position: outside;
+    }
     ol li{
         font-size: 1em;
-        text-align: center;
+        align-items: center;
         margin: 0 auto;
-        padding: 0 auto;
+        
+    }
+    li{
+        text-align: center;
     }
 }
