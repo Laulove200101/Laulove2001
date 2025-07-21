@@ -41,6 +41,8 @@ header {
 #banner {
     /*height: 505px;*/
     width: 100%;
+    display: block;
+
 }
 
 .arriba a {
@@ -209,7 +211,7 @@ footer address {
         width: 10em;
         text-align: center;
         top: 5.3em;
-        font-size:1.6em ;
+        font-size: 1.6em;
     }
 
     .conjunto {

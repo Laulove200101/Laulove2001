@@ -40,6 +40,7 @@ header {
 #banner {
     /*height: 505px;*/
     width: 100%;
+    display: block;
 }
 
 .arriba a {
@@ -69,6 +70,7 @@ header {
     background: -webkit-linear-gradient(left, #842FCE 0%, #33BEDA 50%, #C52BB1 100%);
     background: linear-gradient(to right, #842FCE 0%, #33BEDA 50%, #C52BB1 100%);
 }
+
 
 
 h3 {
