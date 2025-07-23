@@ -199,6 +199,7 @@ p {
     position: relative;
 }
 
+
 .trailer,
 .trailerOri,
 .trailerUndertale {
@@ -218,6 +219,24 @@ p {
 .trailerUndertale {
     margin-top: 17em;
 }
+
+.trailerGenshin{
+    margin-left: 22em;
+}
+
+.info{
+    color: white;
+    background-color: #f172b2;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 3em;
+    position: absolute;
+    margin-top: 15em;
+    margin-left: 15em;
+}
+
 
 footer {
     background-color: #C0C0C0;
