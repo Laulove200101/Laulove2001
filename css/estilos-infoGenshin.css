@@ -11,7 +11,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.2);
-    height: 800px;/*altura puesta para el fondo*/
+    height: 800px;
+    /*altura puesta para el fondo*/
 }
 
 a {
@@ -60,16 +61,54 @@ header {
     transform: scale(1.02);
 }
 
-.aether{
-    float: right;
+.conjunto {
+    position: relative;
 }
 
-.lumine,.aether{
+
+
+
+
+.lumine,
+.aether {
+    position: absolute;
     margin-top: 5em;
 }
-.lumine{
+
+.lumine {
     height: 40em;
 }
+
+.aether {
+    right: 2em;
+}
+
+#aventura {
+    position: absolute;
+    background-image: url("../media/images/ResumenAventura.png");
+    height: 150px;
+    width: 150px;
+    top: 10em;
+    left: 75em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#equipoActual {
+    position: absolute;
+    background-image: url("../media/images/equipoActual.png");
+    height: 150px;
+    width: 150px;
+    top: 22em;
+    left: 65em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
 
 
 
