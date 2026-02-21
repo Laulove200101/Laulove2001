@@ -7,11 +7,18 @@ body {
 }
 
 main {
-    background-image: url("../media/images/fondopagina7.png");
+    /**background-image: url("../media/images/fondopagina7.png");
     background-color: rgba(255, 255, 255, 0.2);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;**/
     background-size: cover;
     height: 1000px;
+  background: #120a59;
+  background: linear-gradient(
+    90deg,
+    rgba(18, 10, 89, 1) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(18, 10, 89, 1) 100%
+  );
 }
 
 a {
