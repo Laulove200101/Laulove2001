@@ -84,7 +84,7 @@ header {
 h3 {
   font-size: 30px;
 }
-#favoritos{
+#favoritos {
   width: 85%;
   text-align: center;
   align-items: center;
@@ -188,7 +188,8 @@ h4 {
   border-radius: 15px;
 }
 
-.fotoHogwarts,.fotoP {
+.fotoHogwarts,
+.fotoP {
   height: 21.5em;
   float: right;
   border-color: white;
@@ -248,11 +249,13 @@ p {
   margin-top: 17em;
 }
 
-.trailerUndertale,.trailerSilksong {
+.trailerUndertale,
+.trailerSilksong {
   margin-top: 18em;
 }
 
-.trailerZZZ,.trailerQuarantine {
+.trailerZZZ,
+.trailerQuarantine {
   margin-top: 23em;
 }
 
@@ -264,7 +267,8 @@ p {
   margin-top: 19em;
 }
 
-.trailerHogwarts,.trailerP {
+.trailerHogwarts,
+.trailerP {
   margin-top: 28em;
 }
 
@@ -310,11 +314,6 @@ footer address {
     height: 10em;
   }
 
-  main {
-    background-image: none;
-    background-color: black;
-  }
-
   .arriba {
     height: 40px;
   }
@@ -332,15 +331,25 @@ footer address {
     place-items: center;
   }
 
-  .fotos {
+  .fotos,
+  .fotozzz,
+  .fotoHogwarts,
+  .fotoP {
     order: -1;
     height: auto;
     max-width: 300px;
   }
-
+  .fotoHogwarts,
+  .fotoP {
+    margin-top: -1em;
+  }
+  .abajo {
+    padding-bottom: 0em;
+  }
   .descripcion,
   .descripcionOri,
-  .descripcionUndertale {
+  .descripcionUndertale,
+  .descripcionSilksong {
     text-align: center;
     width: 18em;
     margin: 0;
@@ -368,11 +377,14 @@ footer address {
 
   .trailerGenshin,
   .trailerGris,
-  .trailerPacify {
+  .trailerPacify,
+  .trailerSplit {
     margin-top: 11.5em;
   }
 
-  .trailerOri {
+  .trailerOri,
+  .trailerArknights,
+  .trailerSilksong {
     margin-top: 16.5em;
   }
 
@@ -388,6 +400,23 @@ footer address {
   .trailerView {
     margin-top: 9.2em;
   }
+  .trailerZZZ {
+    margin-top: 19.7em;
+  }
+  .trailerQuarantine {
+    margin-top: 21em;
+  }
+  .trailerHogwarts {
+    margin-top: 26em;
+  }
+  .trailerP {
+    margin-top: 27em;
+  }
+
+  .abajo{
+    padding-bottom:3em;
+  }
+  
 
   .opinion {
     width: 18em;
