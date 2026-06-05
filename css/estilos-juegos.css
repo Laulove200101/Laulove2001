@@ -373,6 +373,11 @@ footer address {
   .trailer a {
     font-size: 1em;
   }
+  .descripcion .abajo{
+    padding-top: 20em;
+  }
+
+
 
   .trailerHollow,
   .trailerAlice {
@@ -382,7 +387,7 @@ footer address {
   .trailerGenshin,
   .trailerGris,
   .trailerPacify,
-  .trailerSplit {
+  .trailerSplit{
     margin-top: 11.5em;
   }
 
@@ -416,11 +421,18 @@ footer address {
   .trailerP {
     margin-top: 27em;
   }
-
-  .abajo{
-    padding-bottom:3em;
+  .trailerMiside{
+    margin-top: 13em;
   }
-  
+  .trailerNTE{
+    margin-top: 12em;
+  }
+  .trailerMortu{
+    margin-top: 14.5em;
+  }
+  /*.abajo{
+    padding-bottom:3em;
+  }*/
 
   .opinion {
     width: 18em;
